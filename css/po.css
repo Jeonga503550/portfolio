@@ -28,10 +28,10 @@ h2 {
 /* 상단메뉴 */
 #top nav {
     position:fixed; width:100%; top:0; z-index: 1;
-    padding:13pt 10pt; font-weight: bold;
+    padding:13pt 10pt; font-weight: bold;     background: black; 
 }
 #top nav.act {
-    background: black; z-index: 1;
+   z-index: 1; background: rgba(0,0,0, 0.5);
 }
 #top nav> div {
     max-width: 1300px; margin:auto;
