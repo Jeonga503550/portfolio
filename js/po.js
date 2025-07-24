@@ -13,6 +13,7 @@ $( ()=> {
         const port1Top = $("#portfolio").offset().top ;
         const port2Top = $("#port2").offset().top ;
         const port3Top = $("#port3").offset().top ; 
+		const port4Top = $("#port4").offset().top ; 
 
         const eventTop =   $("#event").offset().top ; 
         const contactTop = $("#contact").offset().top ;         
@@ -42,6 +43,10 @@ $( ()=> {
         if(  $(window).scrollTop() >= port2Top +200 ) {
             $("#port3").addClass('act');
         }
+		if(  $(window).scrollTop() >= port2Top +200 ) {
+            $("#port4").addClass('act');
+        }
+		
         if(  $(window).scrollTop() >= eventTop ) {
             $("#menu a").eq(3).addClass('act').siblings().removeClass('act');  //상단메뉴 'Event'활성화           
         }

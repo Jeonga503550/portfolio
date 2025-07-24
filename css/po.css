@@ -98,6 +98,7 @@ h2 {
 #about {
     background: #ddd; padding-bottom: 50px;
 }
+#about a{color:blue; font-size: 1.2rem;}
 #about h3 {
     padding-bottom: 10px;
 }
